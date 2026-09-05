@@ -91,12 +91,33 @@ The MAC (Media Access Control) address is a unique 48-bit physical identifier, c
 
 ### Internet Protocol
 
-IP addresse is a 32-bit identifier...
+
 
 - **IpV4**:
+L'adresse IpV4 est une adresse de 32 bits soit 4 nombres (en base 10/décimal) séparé par des points. Le nombre d'adresse IP différentes possible avec IpV4 est de 4.3 milliards.
 
-- **IpV6**:
+- **IpV6**: IpV6 utilise une adresse de 128 bits soit 4 groupes hexadécimaux séparés par des deux-points. Le nombre d'adresse IP différentes possible avec IpV6 est de 3.4 * 10 ** 38 (que l'on peut considérer inépuisable).
 
+L'IpV6 intervient dans un contexte où l'adressage des objects connectés via IpV4 arrive a saturation.  permet aussi de simplifier certains aspects de la configuration réseau et limite la dépendance au NAT
+
+Cependant aujourd'hui c'est toujours le protocole IpV4 qui est majoritaire. Les raisons sont diverses: 
+
+- Infrastructure réseau existante basé sur Ipv4.
+
+- Coût de la migration
+
+- La compatibilité: Un appareil utilisant IpV4 ne peut pas communiquer directement avec un appareil IpV6. Cela necessite un mécanisme intermédiaire. 
+
+- Le NAT (Network Addressing Translation): a permit de prolonger l'utilisation de IpV4 en permettant a plusieurs appareils du meme reseaux local privé d'utilisé une seule adresse IpV4 publique pour acceder a internet.
+
+- La transition progressive
+
+
+Un paquet IPv4 n’est pas directement compris comme un paquet IPv6. Il existe donc plusieurs méthodes de coexistence :
+
+- Double pile : l’appareil utilise IPv4 et IPv6 simultanément.
+- Tunnel : des paquets IPv6 sont transportés à l’intérieur d’un réseau IPv4.
+- Traduction : un dispositif convertit certaines communications entre IPv4 et IPv6, par exemple avec NAT64
 
 
 
