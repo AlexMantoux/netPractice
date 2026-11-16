@@ -26,16 +26,23 @@ NetPractice is our first networking project, designed to introduce us to the fun
 
 ## OSI Layers
 
+The OSI model is a conceptual framework that divides network communication into seven layers. Each layer has a specific role, from transmitting raw bits to providing network services to applications. It helps explain how data moves through a network and makes troubleshooting easier.
+
 <div style="text-align: center">
     <img src="./imgs/OSI_model.webp" alt="OSI model" width="300"/>   
 </div>
 
 ## TCP/IP Addressing
+
+The TCP/IP model is the practical networking model used on the internet. It groups communication functions into four layers: Link, Internet, Transport, and Application. IP handles addressing and routing, while TCP provides reliable delivery between applications.
+
 <div style="text-align: center">
     <img src="./imgs/tcp-ip.svg" alt="TCP/IP network model" width="300"/>   
 </div>
 
 ## Subnet Masks
+
+A subnet mask separates an IPv4 address into a network part and a host part. It determines which devices belong to the same local network and how many host addresses are available. CIDR notation, such as `/24`, indicates how many bits are reserved for the network.
 
 | CIDR | SUBNET MASK | WILDCARD MASK | TOTAL IP ADDRESSES | USABLE IP ADDRESSES |
 |------|-------------|---------------|-------------------|---------------------|
