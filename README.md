@@ -9,7 +9,7 @@ NetPractice is our first networking project, designed to introduce us to the fun
 
 - First, download `net_practice.1.9.tgz`.
 
-- Navigate to the directory where you downloaded the file and run the following command: 
+- Navigate to the directory where you downloaded the file and run the following command:
     ```sh
     tar -xvf net_practice.1.9.tgz && cd net_practice
     ```
@@ -19,10 +19,14 @@ NetPractice is our first networking project, designed to introduce us to the fun
     sh run.sh
     ```
 
-- You now have access to the `net_practice` interface. You can choose between **Practice** and **Exam** mode.
-- **Exporting Configurations:** Once you solve a level, you can export your configuration file (a `.json` file will be downloaded)
-- **Exam Mode:** Consists of a 3-level test (levels are randomly assigned between 6 and 10).
-- **Submission Requirements:** To submit your work, you must save your final exported `.json` configuration file into your repository as required by the evaluation guidelines.
+- You now have access to the `net_practice` interface. You can choose between **Practice** and **Exam** modes.
+- **Exporting configurations:** Once you solve a level, export its configuration file. A `.json` file will be downloaded.
+- **Exam mode:** The exam consists of three levels, randomly selected from levels 6 to 10.
+- **Submission requirements:** Export one configuration file for each of the 10 levels. The 10 exported `.json` files, one per level, must be placed at the root of the repository before submission.
+
+## Networking Concepts
+
+This project covers the main concepts needed to configure the exercises: TCP/IP addressing, subnet masks and CIDR notation, network and host addresses, default gateways, routers, switches, MAC addresses, and the OSI model. The following sections provide a brief overview of these topics.
 
 ## OSI Layers
 
@@ -139,4 +143,5 @@ Since IPv4 and IPv6 packets are not natively compatible, several coexistence tec
   - [Subnet IPv4 Practice Exercises](https://www.subnetting.net/)
 
 ### AI Usage
-- Formatting and translating documentation into English markdown.
+
+AI was used to format this README in Markdown, translate it into English, and proofread its grammar and wording. It was used only for the documentation and not to replace the networking concepts practiced in the project.
