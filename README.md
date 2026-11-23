@@ -139,7 +139,7 @@ Since IPv4 and IPv6 packets are not natively compatible, several coexistence tec
   - [Cloudflare: What is the OSI Model?](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
   - [GeeksforGeeks: TCP/IP Model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - **Subnetting & Addressing:**
-  - [IPAddressGuide Subnet Cheat Sheet](https://www.ipaddressguide.com/subnet)
+  - [IPAddressGuide Subnet Cheat Sheet](https://www.ipaddressguide.com/netmask)
   - [Subnet IPv4 Practice Exercises](https://www.subnetting.net/)
 
 ### AI Usage
